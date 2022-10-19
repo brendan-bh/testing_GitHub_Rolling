@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Mouse+Memoirs&family=Poppins:wght@300;400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    min-height: 100vh;
+}
+
+/* =============== NAV BAR START =============== */
+
+.logoMusic {
+    width: 90px;
+    height: 65px;
+}
+
+.cusmtomNavBar {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.btnCustom {
+    border-color: #ffffff !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0)
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    color: #1CB5E0 !important;
+}
+
+.btn-info {
+    border-color: white;
+}
+
+/* =============== NAV BAR END=============== */
+
+
+/* =============== MODAL START =============== */
+
+.modal-content {
+    background: linear-gradient(90deg, #1CB5E0 0%, #056883 100%);
+    color: white;
+}
+
+.btnModalCustom {
+    background-color: #1CB5E0;
+    border-color: white;
+}
+
+/* =============== MODAL END=============== */
+
+
+/* =============== CARDS START =============== */
+
+.titleCustom {
+    text-shadow: 1px 1px 2px #101010;
+}
+
+/* =============== CARDS END =============== */
+
+
+/* =============== MAIN START =============== */
+
+.container {
+    margin-top: 120px;
+    
+}
+
+.text-0 {
+    font-size: 1.3rem;
+    }
+    
+    .back-0 {
+        background-color: rgba(14, 13, 13, 0.2);
+    }
+    
+    .img-1 {
+        object-fit: cover;
+    }
+    
+    .radius {
+        border-radius: 50%;
+    }
+    
+    .name {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+/* =============== MAIN END =============== */
+
+
+/* =============== FOOTER START =============== */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.linkCustom {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.linkCustom:hover {
+    color: #1CB5E0;
+}
+
+/* =============== FOOTER END =============== */
+/*
+ul.vertical {
+	list-style-type: none;
+}
+*/
